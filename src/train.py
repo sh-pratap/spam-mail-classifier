@@ -33,7 +33,8 @@ y_pred = model.predict(X_test)
 accuracy = accuracy_score(y_test, y_pred)
 print("Accuracy:", accuracy)
 
-# Save the model
+# Save the model and vectorizer
 os.makedirs("models", exist_ok=True)
 joblib.dump(model, "models/model.pkl")
+joblib.dump(vectorizer, "models/vectorizer.pkl")
 print("Saved the model to models directory")
