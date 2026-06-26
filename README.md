@@ -10,3 +10,4 @@ It is using *Multinomial Naive Bayes*. The accuracy of the model is *98%*.
 ### Confusion Matrix
 ![Confusion Matrix](graphs/Fig-1.png)
 This is the Confusion Matrix for our model. It performed very well on our test data with *(979+117) = 1096* correct predictions. There were some errors with predictions *22* spam messages were predicted as not spam.
+ 
